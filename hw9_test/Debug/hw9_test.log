@@ -1,0 +1,32 @@
+﻿Build started 2015/5/11 18:20:04.
+     1>Project "F:\cis554\HomeWork\hw9_test\hw9_test.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (hw9_test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\Program Files\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp MyCircle.cpp filledshapes.h FilledShapesTest_Simple.cpp MyRect.cpp MyTriangle.cpp ScreenSaver.cpp screensaver_RT.cpp Shape.cpp
+         Skipping... (no relevant changes detected)
+         Shape.cpp
+         screensaver_RT.cpp
+         ScreenSaver.cpp
+         MyTriangle.cpp
+         MyRect.cpp
+         FilledShapesTest_Simple.cpp
+         filledshapes.h
+         MyCircle.cpp
+         main.cpp
+       Link:
+         E:\Program Files\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\cis554\HomeWork\Debug\hw9_1.exe" /INCREMENTAL /NOLOGO F:\cis554\HomeWork\HW9\FilledShapes_Lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\cis554\HomeWork\Debug\hw9_1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\cis554\HomeWork\Debug\hw9_1.lib" /MACHINE:X86 Debug\main.obj
+         Debug\MyCircle.obj
+         Debug\filledshapes.obj
+         Debug\FilledShapesTest_Simple.obj
+         Debug\MyRect.obj
+         Debug\MyTriangle.obj
+         Debug\ScreenSaver.obj
+         Debug\screensaver_RT.obj
+         Debug\Shape.obj
+     1>FilledShapes_Lib.lib(FilledShapes.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'FilledShapes_Lib.lib(FilledShapes.obj)' or at 'F:\cis554\HomeWork\Debug\vc120.pdb'; linking object as if no debug info
+         hw9_test.vcxproj -> F:\cis554\HomeWork\Debug\hw9_1.exe
+     1>Done Building Project "F:\cis554\HomeWork\hw9_test\hw9_test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.43
